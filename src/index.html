@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+  <script defer src="render.js"></script>
+</head>
+
+<body>
+  <h1>Productivity Recorder</h1>
+  <script>
+    var time_split;
+    function startRecording() {
+      var start_time = Date.now();
+    }
+  </script>
+  <canvas id="myChart" width="400" height="400"></canvas>
+  <button id="startBtn" class="button is-primary">Start Recording</button>
+  <button id="stopBtn" class="button is-warning">Stop Recording</button>
+</body>
+</html>
