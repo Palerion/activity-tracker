@@ -6,8 +6,8 @@ Installation is currently quite simple.
 
 1. Clone this repository to a local directory on your machine.
 2. Navigate to the cloned project's root directory via command terminal.
-3. Enter and send the command "npm install".
-4. Enter and send the comand "npm start".
+3. Run the "npm install" command.
+4. Run the "npm start" command.
 
 This should launch the application.
 
